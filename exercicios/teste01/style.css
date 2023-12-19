@@ -1,0 +1,14 @@
+@charset "UTF-8" ;
+
+body {
+    background-color: lightblue;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-family: verdana;
+  }

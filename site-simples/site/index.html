@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simples Website</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        /*
+        #  = id
+        .  = class
+        :: = pseudo-class
+        >  = clildren
+        */
+
+        /*como envelopar? seleciona o codigo e clica em Ctrl + Shift + P e degitar a e enter*/
+    a {
+        color: black; /*cor do link--*/
+        text-decoration: none; /*Para deixar o link não sublinhado*/
+
+}
+a:visited {
+    color: brown; /*Depois de visitado ficara essa cor*/
+}
+a:hover {
+color: aliceblue;
+
+}
+
+    </style>
+</head>
+<body class="light-theme">
+    <h1>Task List</h1>
+    <p id="msg>current tasks"></p>
+    <ul>
+<li class="list"> <a href="https://www.ev.org.br/">Add visual styles</a></li>
+<li class="list">Add light and dark themes</li>
+<li>Enable switching the theme</li>
+    </ul>
+<!--Para deixar o link não sublinhado-->
+    <div>
+        <button class="btn">Dark</button>
+    </div>
+    <!---->
+    <script src="app.js"></script>
+    <noscript> You need enable JavaScript to view the fulll site.</noscript>
+</body>
+</html>

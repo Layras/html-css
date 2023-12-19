@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(226, 209, 186);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+h1 {
+    color: chocolate;
+    background-color: blueviolet;
+}
+h2{
+    color: darkorange;
+}
+
+p{
+    text-align: justify;
+}

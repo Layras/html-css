@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'flor';
+    src: url('fontes/FLOWRISE.otf' ) format('opentype');
+}
+@font-face {
+    font-family: 'analo';
+    src: url('fontes/Analogist.otf' ) format('opentype');
+}
+@font-face {
+    font-family: 'creato';
+    src: url('fontes/CreatoDisplay-Regular.otf') format('opentype');
+}
+@font-face {
+    font-family: 'gai';
+    src: url('fontes/GAISTRO-Regular.otf') format('opentype');
+}
+
+
+body {
+    font-family: 'creato', 'Times New Roman', Times, serif;
+    text-align: justify;
+    text-indent: 30px;
+}
+h1  {
+    font-family: 'flor', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color: rgb(167, 113, 218);
+}
+
+h1#principal {
+text-align: center;
+font-family: 'gai', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-indent: 3em;
+
+
+}
+h2 {
+    font-family: 'analo', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(79, 9, 145);
+}

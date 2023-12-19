@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <body style="background-color: rgb(44, 44, 44);">
+<h1>Imagens dinâmicas</h1>
+<picture>
+    <source media="(max-width: 750px)" srcset="img/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+    <img src="img/foto-g.png" alt="imagem flexível">
+</picture>
+
+<h1>Reproduzindo áudio</h1>
+<p>Aprendendo a reproduzir ádios em HTML5.
+    <h2>Tipo 1</h2>
+</p>    
+<audio src="midia/Les-ly.mp3" controls autoplay></audio>
+
+<h2>Tipo 2</h2>
+<p></p>
+<audio preload="metadata" controls autoplay loop>
+<source src="midia/Les-ly.mp3" type="audio/mpeg">
+<source src="midia/Les-ly.ogg" type="audio/ogg">
+<source src="midia/Les-ly.wav" type="audio/wav">
+</audio>
+
+<h1>Reproduzindo vídeos</h1>
+<p>Este vídeo está hospedado no meu próprio servidor:</p>
+<video src="midia/Coelho(1080P).webm" width="500" controls></video>
+
+<p>Ou faz desse jeito:</p>
+
+<video width="500" poster="img/capagato.png" controls loop>
+<source src="midia/coelho(1080p).mp4" type="video/mp4">
+<source src="midia/Coelho(1080P).webm" type="video/webm">
+</video>
+
+<h1>Inserindo vídeos do YouTube</h1>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OzUnqQk4eOg?si=JXcoKEYiN5uS-uyj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+</body>
+</html>
