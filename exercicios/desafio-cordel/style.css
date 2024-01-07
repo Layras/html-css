@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: 'debora';
-    src: url('./fontes/debora.otf');
+    font-family: 'vintage';
+    src: url('./fontes/vintage.otf');
 }
 
 * {
@@ -40,11 +40,12 @@ header > p {
 }
 
 section {
-    font-family: 'debora';
+    font-family: 'vintage';
     font-size: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
+    font-weight: bolder;
 }
 
 section.normal {
