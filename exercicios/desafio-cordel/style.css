@@ -15,10 +15,6 @@
     padding: 0px;
 }
 
-html, body {
-
-}
-
 header {
     background-color: black;
     color: white;
@@ -44,36 +40,48 @@ section {
     font-size: 2em;
     padding-top: 10vh;
     padding-bottom: 10vh;
+    padding-left: 30px;
     line-height: 2em;
     font-weight: bolder;
+}
+
+section > p {
+    padding-bottom: 2em;
 }
 
 section.normal {
     background-color: white;
     color: black;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    margin-left: 40px;
     font-size: 30px;
 }
 
 section.imagem {
-    background-image: url('./imagens/background001.jpg');
-    background-position: center;
     color: white;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    padding-left: 40px;
-    font-size: 30px;
-    height:500px;
+    text-shadow: 2px 3px 0px black;
+    box-shadow: inset 5px 5px 15px 8px rgba(0, 0, 0, 0.486);background-attachment: fixed; 
 }
+
 section.imagem > p {
-    width: 400px;
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.404);
     padding: 20px;
 }
 
+#joaninha {
+    background-image: url('./imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+}
+
+#livro {
+    background-image: url('imagens/background002.jpg');
+    background-position: right center;
+    background-size: cover;
+   
+}
+
 footer {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     color: white;
     text-align: center;
@@ -89,4 +97,3 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
