@@ -59,6 +59,8 @@ section.imagem {
     color: white;
     text-shadow: 2px 3px 0px black;
     box-shadow: inset 5px 5px 15px 8px rgba(0, 0, 0, 0.486);background-attachment: fixed; 
+    margin: auto;
+    width: 100%;
 }
 
 section.imagem > p {
@@ -71,14 +73,12 @@ section.imagem > p {
     background-image: url('./imagens/background001.jpg');
     background-position: right center;
     background-size: cover;
-    width: 100%;
 }
 
 #livro {
     background-image: url('imagens/background002.jpg');
     background-position: right center;
     background-size: cover;
-   
 }
 
 footer {
