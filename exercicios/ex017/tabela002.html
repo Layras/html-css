@@ -12,6 +12,8 @@
             width: auto;
             height: 80px;
             border-collapse: collapse;
+            position: relative;
+            background-size: ;
         }
 
         td,th {
@@ -24,6 +26,24 @@
             color: white;
         }
 
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd) {
+            background-color: lightcyan;
+        }
+
+        caption {
+            background-color: darkgrey;
+            font-size: 30px;
+            font-family:serif;
+            font-weight: bolder;
+            padding: 15px;
+        }
+
         td.num {
             text-align: right;
         }
@@ -32,6 +52,7 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
     <table>
+        <caption> População das unidades federativas</caption>
         <thead>
             <tr>
                 <th>Posição</th>
@@ -234,11 +255,21 @@
         </tbody>
         <tfoot>
             <tr>
-                <td>Total de habitantes</td>
-                <td><strong>203 062 512</strong></td>
+                <th scope="row">Total de habitantes</th>
+                <td colspan="4"><strong>203 062 512</strong></td>
             </tr>
         </tfoot>
     </table>
-    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure eius hic aperiam doloremque vel atque nemo, distinctio ipsam neque ex quisquam aliquam rem incidunt, eum culpa aspernatur fugiat exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere iusto sit tempora eveniet excepturi voluptatibus animi, esse natus? Cumque repellat eveniet autem nemo, voluptates dolore repudiandae quaerat deleniti laudantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quasi voluptatum. Molestias praesentium, labore repudiandae accusantium earum quisquam sed dolore dicta voluptates dolor numquam corporis non animi maxime beatae unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure eius hic aperiam doloremque vel atque nemo, distinctio ipsam neque ex quisquam aliquam rem incidunt, eum culpa aspernatur fugiat exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere iusto sit tempora eveniet excepturi voluptatibus animi, esse natus? Cumque repellat eveniet autem nemo, voluptates dolore repudiandae quaerat deleniti laudantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quasi voluptatum. Molestias praesentium, labore repudiandae accusantium earum quisquam sed dolore dicta voluptates dolor numquam corporis non animi maxime beatae unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure eius hic aperiam doloremque vel atque nemo, distinctio ipsam neque ex quisquam aliquam rem incidunt, eum culpa aspernatur fugiat exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere iusto sit tempora eveniet excepturi voluptatibus animi, esse natus? Cumque repellat eveniet autem nemo, voluptates dolore repudiandae quaerat deleniti laudantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quasi voluptatum. Molestias praesentium, labore repudiandae accusantium earum quisquam sed dolore dicta voluptates dolor numquam corporis non animi maxime beatae unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure eius hic aperiam doloremque vel atque nemo, distinctio ipsam neque ex quisquam aliquam rem incidunt, eum culpa aspernatur fugiat exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere iusto sit tempora eveniet excepturi voluptatibus animi, esse natus? Cumque repellat eveniet autem nemo, voluptates dolore repudiandae quaerat deleniti laudantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quasi voluptatum. Molestias praesentium, labore repudiandae accusantium earum quisquam sed dolore dicta voluptates dolor numquam corporis non animi maxime beatae unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure eius hic aperiam doloremque vel atque nemo, distinctio ipsam neque ex quisquam aliquam rem incidunt, eum culpa aspernatur fugiat exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere iusto sit tempora eveniet excepturi voluptatibus animi, esse natus? Cumque repellat eveniet autem nemo, voluptates dolore repudiandae quaerat deleniti laudantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quasi voluptatum. Molestias praesentium, labore repudiandae accusantium earum quisquam sed dolore dicta voluptates dolor numquam corporis non animi maxime beatae unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure eius hic aperiam doloremque vel atque nemo, distinctio ipsam neque ex quisquam aliquam rem incidunt, eum culpa aspernatur fugiat exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere iusto sit tempora eveniet excepturi voluptatibus animi, esse natus? Cumque repellat eveniet autem nemo, voluptates dolore repudiandae quaerat deleniti laudantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quasi voluptatum. Molestias praesentium, labore repudiandae accusantium earum quisquam sed dolore dicta voluptates dolor numquam corporis non animi maxime beatae unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure eius hic aperiam doloremque vel atque nemo, distinctio ipsam neque ex quisquam aliquam rem incidunt, eum culpa aspernatur fugiat exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere iusto sit tempora eveniet excepturi voluptatibus animi, esse natus? Cumque repellat eveniet autem nemo, voluptates dolore repudiandae quaerat deleniti laudantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quasi voluptatum. Molestias praesentium, labore repudiandae accusantium earum quisquam sed dolore dicta voluptates dolor numquam corporis non animi maxime beatae unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure eius hic aperiam doloremque vel atque nemo, distinctio ipsam neque ex quisquam aliquam rem incidunt, eum culpa aspernatur fugiat exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere iusto sit tempora eveniet excepturi voluptatibus animi, esse natus? Cumque repellat eveniet autem nemo, voluptates dolore repudiandae quaerat deleniti laudantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quasi voluptatum. Molestias praesentium, labore repudiandae accusantium earum quisquam sed dolore dicta voluptates dolor numquam corporis non animi maxime beatae unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure eius hic aperiam doloremque vel atque nemo, distinctio ipsam neque ex quisquam aliquam rem incidunt, eum culpa aspernatur fugiat exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere iusto sit tempora eveniet excepturi voluptatibus animi, esse natus? Cumque repellat eveniet autem nemo, voluptates dolore repudiandae quaerat deleniti laudantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quasi voluptatum. Molestias praesentium, labore repudiandae accusantium earum quisquam sed dolore dicta voluptates dolor numquam corporis non animi maxime beatae unde.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure eius hic aperiam doloremque vel atque nemo, distinctio ipsam neque ex quisquam aliquam rem incidunt, eum culpa aspernatur fugiat exercitationem! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum facere iusto sit tempora eveniet excepturi voluptatibus animi, esse natus? Cumque repellat eveniet autem nemo, voluptates dolore repudiandae quaerat deleniti laudantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, quasi voluptatum. Molestias praesentium, labore repudiandae accusantium earum quisquam sed dolore dicta voluptates dolor numquam corporis non animi maxime beatae unde.</p>
+
 </body>
 </html>
