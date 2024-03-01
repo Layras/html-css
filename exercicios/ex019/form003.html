@@ -10,44 +10,78 @@
 
     <h2>Formulário de Senha:</h2>
      <form action="cadastro.php" method="post" autocomplete="on">
-        <p>
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" autocomplete="name" placeholder="Nome completo">
-        </p>
-        <p>
-            <label for="isenha">Senha:</label>
-            <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="Mínimo 8 dígitos" minlength="8">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+        <fieldset>
+            <legend>Dados</legend>
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" autocomplete="name" placeholder="Nome completo">
+            </p>
+            <p>
+                <label for="isenha">Senha:</label>
+                <input type="password" name="senha" id="isenha" autocomplete="current-password" placeholder="Mínimo 8 dígitos" minlength="8">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
      </form>
 
     <h2>Formulário com números:</h2>
     <form action="cadastro.php" method="get" autocomplete="on">
-        <p>
-            <label for="ialu">Aluno:</label>
-            <input type="text" name="aluno" id="ialu" autocomplete="name" placeholder="Nome completo do aluno">
-        </p>
-        <p>
-            <label for="inota">Nota:</label>
-            <input type="number" name="nota" id="inota" min="0" max="10" step="0.1">
-        </p>
-        <p>
-            <label for="iano">Período letivo:</label>
-            <input type="month" name="ano" id="iano">
-        </p>
-        <p>
-            <label for="ihora">Horário da prova:</label>
-            <input type="time" name="hora" id="ihora">
-        </p>
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
+        <fieldset>
+            <legend>Área do Aluno</legend>
+                <p>
+                <label for="ialu">Aluno:</label>
+                <input type="text" name="aluno" id="ialu" autocomplete="name" placeholder="Nome completo do aluno">
+                 </p>
+                 <p>
+                <label for="inota">Nota:</label>
+                <input type="number" name="nota" id="inota" min="0" max="10" step="0.1">
+                 </p>
+                 <p>
+                <label for="iano">Período letivo:</label>
+                <input type="month" name="ano" id="iano">
+                </p>
+                <p>
+                <label for="ihora">Horário da prova:</label>
+                <input type="time" name="hora" id="ihora">
+                 </p>
+                <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+                </p>
+        </fieldset>
        
     </form>
+
+    <h2>Formulário tipo Checkbox:</h2>
+        <form action="cadastro.php" method="get">
+            <fieldset>
+                <legend>Esportes favoritos</legend>
+                <input type="checkbox" name="basque" id="ibasque"> <label for="ibasque">Basquete</label><br>
+                 <input type="checkbox" name="fute" id="ifute"> <label for="ifute">Futebol</label><br>
+                <input type="checkbox" name="volei" id="ivolei"> <label for="ivolei">Vôlei</label><br>
+                 <input type="checkbox" name="surf" id="isurf"> <label for="isurf">Surf</label><br>
+                 <input type="checkbox" name="tenis" id="itenis"> <label for="itenis">Tênis</label><br>
+            </fieldset>
+            <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            </p>
+        </form>
+    <h2>Formulário tipo radio:</h2>
+        <form action="cadastro.php" method="get">
+                <fieldset>
+                <legend>Sexo</legend>
+                <input type="radio" name="sexo" id="imas"> <label for="isexo">Masculino</label>
+                <input type="radio" name="sexo" id="ifem"><label for="ifem">Feminino</label>
+                </fieldset>
+                <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+                </p>
+        </form>
 
 
     
